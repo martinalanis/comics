@@ -19,7 +19,7 @@
 			<nav class="navbar">
 			  <div class="container">
 			  	<div class="navbar-header">
-			  		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			  		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-menu" aria-expanded="false">
 			  			<span class="sr-only">Toggle navigation</span>
 			  			<span class="icon-bar"></span>
 			  			<span class="icon-bar"></span>
@@ -28,7 +28,7 @@
 			  		<a class="navbar-brand title" href="#"><strong>ASTONISHING<br>COMICS</strong></a>
 			  	</div>
 
-			  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  	<div class="collapse navbar-collapse" id="navigation-menu">
 			  		<ul class="nav navbar-nav navbar-right">
 			  			<li><a href="#">Comics</a></li>
 			  			<li><a href="#">Fresh</a></li>
@@ -53,10 +53,10 @@
                         	<div class="col-xs-4 col-xs-offset-1">
                         		<img src="img/superman.png" alt="" class="img-responsive img-superman-slide">
                         	</div>
-                        	<div class="col-xs-4 col-xs-offset-1">
+                        	<div class="col-xs-6 col-sm-4 col-sm-offset-1">
                         		<img src="img/superman-unchained.png" alt="" class="img-responsive mb-30">
                         	</div>
-                        	<div class="col-xs-5 col-xs-offset-1">
+                        	<div class="col-xs-5 col-xs-offset-1 hidden-xs">
                         		<p class="white-text mb-30">From the skies above Metropolis to the four corners of the globe to the star-streaked spaceways beyond, one man is synonymous with the word "hero". Since his arrival marked the dawn of the superhero age, Superman has waged a never-ending battle for truth and justice, no matter when or where.</p>
                         		<div class="col-xs-2 pull-right">
                         			<!-- <i class="fa fa-long-arrow-right fa-2x"></i> -->
@@ -80,9 +80,9 @@
                         		</div>
                         	</div>
                         </div>
-                       	<button class="btn btn-danger btn-lg btn-buy">BUY NOW</button>
+                       	<button class="btn btn-danger btn-lg btn-buy col-xs-6 col-sm-2">BUY NOW</button>
                     </div>
-                    <div class="col-xs-4 col-xs-offset-4">
+                    <div class="col-xs-12 col-sm-4 col-sm-offset-4">
                     	<span class="dots active"></span>
                     	<span class="dots"></span>
                     	<span class="dots"></span>
@@ -306,21 +306,116 @@
 
 				</div>
 			</section>			
-			<section class="banner"></section>			
-			<section class="cooming-soon"></section>			
+			<section class="banner">
+				<div class="nomargin">
+					<div class="container banner-container">
+						<div class="col-sm-7 text-center">
+							<img src="img/ironman-text.png" alt="" class="img-responsive mb-50">
+							<h2 class="display-text">FULL METAL</h2>
+							<h2 class="display-text">-15%</h2>
+							<h2 class="display-text">FOR ALL BOOKS</h2>
+						</div>
+						<div class="col-xs-8 col-sm-3 btn-banner-container">
+							<button class="btn btn-block btn-banner">START SAVING</button>
+						</div>
+					</div>
+				</div>
+				<img src="img/ironman-banner.png" alt="" class="ironman-banner hidden-xs">
+			</section>			
+			<section class="coming-soon">
+				<div class="container">
+					<div class="col-xs-12">
+						<h1 class="title mb-50"><strong>COMING SOON</strong></h1>
+					</div>
+					<div class="book-row-3 mb-50">
+						<div class="col-sm-3">
+							<img src="img/powerman.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>POWER MAN AND IRON FIST # 1</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+						<div class="col-sm-3">
+							<img src="img/superman-america.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>SUPERMAN: AMERICA ALIEN # 4</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+						<div class="col-sm-3">
+							<img src="img/deadpool-cable.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>DEADPOOL & CABLE: SPLIT SECOND # 3</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+					</div>
+					<div class="book-row-3">
+						<div class="col-sm-3">
+							<img src="img/wonder-woman.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>WONDER WOMAN # 49</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+						<div class="col-sm-3">
+							<img src="img/starbrand.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>STARBRAND & NIGHTMASK # 3</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+						<div class="col-sm-3">
+							<img src="img/lobo.jpg" alt="" class="img-responsive">
+							<h4 class="title mt-20"><strong>LOBO # 1</strong> <br><small>February 17, 2016</small></h4>
+						</div>
+					</div>
+					<div class="col-xs-12 mt-50">
+						<div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-5">
+							<button class="btn btn-block btn-phantom">SEE ALL BOOKS</button>
+						</div>
+					</div>
+				</div>
+			</section>			
 		</main>
 		<footer>
 			<div class="row footer-top">
-				<div class="container"></div>
+				<div class="container">
+					<div class="col-xs-12 mb-30">
+						<div class="col-sm-4">
+							<h3 class="title"><strong>SUBSCRIBE TO OUR NEWSLETTER</strong></h3>
+							<form action="">
+								<input type="email" name="mail" placeholder="Your e-mail" class="newsletter-input">
+							</form>
+						</div>
+					</div>
+					<div class="col-xs-12">
+						<div class="col-sm-3">
+							<h3 class="title"><strong>PHONE</strong></h3>
+							<h3><a href="tel:0646100531" class="link-tel">064 610 0531</a></h3>
+						</div>
+						<div class="col-sm-4">
+							<h3 class="title"><strong>EMAIL</strong></h3>
+							<h3><a href="mailto:mail@astonishing.com" class="link-tel">mail@astonishing.com</a></h3>
+						</div>
+						<div class="col-sm-2">
+							<h3 class="title"><strong>SOCIALS</strong></h3>
+							<div class="icons-container">
+								<a href="#!"><i class="fa fa-facebook"></i></a>
+								<a href="#!"><i class="fa fa-twitter"></i></a>
+								<a href="#!"><i class="fa fa-google-plus"></i></a>
+								<a href="#!"><i class="fa fa-instagram"></i></a>
+							</div>
+						</div>
+						<div class="col-sm-2 col-sm-offset-1">
+							<h3 class="title"><strong>PAYMENT</strong></h3>
+							<div class="icons-container">
+								<a href="#!"><i class="fa fa-cc-paypal"></i></a>
+								<a href="#!"><i class="fa fa-cc-visa"></i></a>
+								<a href="#!"><i class="fa fa-cc-mastercard"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="row footer-bottom">
-				<div class="container"></div>
+				<div class="container">
+					<div class="col-xs-12">
+						<p><i class="fa fa-copyright"></i> Astonishing comics 2016</p>
+					</div>
+				</div>
 			</div>
 		</footer>
 		
 	</div>
 
 	<script src="js/plugins/jquery-3.3.1.min.js"></script>
+	<script src="js/plugins/bootstrap.min.js"></script>
 	<script src="js/main.js"></script>
 	
 </body>
